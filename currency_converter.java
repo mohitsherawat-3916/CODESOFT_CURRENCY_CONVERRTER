@@ -13,7 +13,7 @@ public class currency_converter {
         System.out.println("6 Indian Rupee to Nepalese Rupee");
 
         System.out.print("Choose a Number : ");
-        double number=sc.nextInt();
+        double number=sc.next.Double();
 
         if(number==1){
             System.out.println("Enter US Dollar");
