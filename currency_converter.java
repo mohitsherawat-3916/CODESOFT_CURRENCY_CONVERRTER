@@ -12,7 +12,7 @@ public class currency_converter {
         System.out.println("5 Nepalese Rupee to Indian Rupee ");
         System.out.println("6 Indian Rupee to Nepalese Rupee");
 
-        System.out.print("Choose a Number:");
+        System.out.print("Choose a Number : ");
         double number=sc.nextInt();
 
         if(number==1){
@@ -34,25 +34,25 @@ public class currency_converter {
             System.out.println(rupee + " Indian Rupee");
 
         }else if(number==4){
-            System.out.println("Enter Indian Rupee");
+            System.out.println("Enter Indian Rupee : ");
             double n=sc.nextInt();
             double rupee=n*0.9116;
-            System.out.println(rupee + " Russian Ruble ");
+            System.out.println(rupee + " Russian Ruble : ");
 
         }else if(number==5){
-            System.out.println("Enter Nepalese rupee");
+            System.out.println("Enter Nepalese Rupee : ");
             double n=sc.nextInt();
             double rupee=n*0.62;
-            System.out.println(rupee + " Indian ruoee");
+            System.out.println(rupee + " Indian Rupee : ");
 
         }else if(number==6){
-            System.out.println("Enter Indian Rupee");
+            System.out.println("Enter Indian Rupee : ");
             double n=sc.nextInt();
             double rupee=n*1.6;
-            System.out.println(rupee + " Nepalese Rupee");
+            System.out.println(rupee + " Nepalese Rupee : ");
 
         }else{
-            System.out.println("Invaid Output ");
+            System.out.println(" Invaid Output ");
         }
 
     }
